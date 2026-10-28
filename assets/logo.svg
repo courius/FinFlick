@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-106 -106 212 212" width="512" height="512">
+  <defs>
+    <linearGradient id="bodyGrad" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#428ADE"/>
+      <stop offset="55%" stop-color="#255CA8"/>
+      <stop offset="100%" stop-color="#15386E"/>
+    </linearGradient>
+    <linearGradient id="dorsalGrad" x1="25%" y1="10%" x2="90%" y2="65%">
+      <stop offset="0%" stop-color="#245A9E"/>
+      <stop offset="55%" stop-color="#113260"/>
+      <stop offset="100%" stop-color="#091A36"/>
+    </linearGradient>
+    <linearGradient id="fluteGrad" x1="0%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#2D6DC0"/>
+      <stop offset="65%" stop-color="#112E59"/>
+      <stop offset="100%" stop-color="#07152B"/>
+    </linearGradient>
+    <linearGradient id="ventralGrad" x1="20%" y1="20%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#193F75"/>
+      <stop offset="100%" stop-color="#091830"/>
+    </linearGradient>
+    <linearGradient id="funnelGrad" x1="85%" y1="85%" x2="15%" y2="15%">
+      <stop offset="0%" stop-color="#3270C2"/>
+      <stop offset="100%" stop-color="#0E2246"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="2.5" dy="3.5" stdDeviation="4" flood-color="#020710" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <!-- Ventral Sector -->
+  <path d="M 0,44 L 0,93.8 A 93.8,93.8 0 0,1 -73.9,57.7 L -30,31 Z" fill="url(#ventralGrad)" stroke="#3D78C2" stroke-width="0.8"/>
+  <!-- 4 Wavy Camera-Fin Blades -->
+  <path d="M 18,41 L 29,93.5 A 98,98 0 0,0 50,84 L 31,32 Z" fill="url(#fluteGrad)" stroke="#488CE0" stroke-width="0.8"/>
+  <path d="M 31,32 L 50,84 A 98,98 0 0,0 70,69 L 40,19 Z" fill="url(#fluteGrad)" stroke="#488CE0" stroke-width="0.8"/>
+  <path d="M 40,19 L 70,69 A 98,98 0 0,0 86,47 L 45,5 Z" fill="url(#fluteGrad)" stroke="#488CE0" stroke-width="0.8"/>
+  <path d="M 45,5 L 86,47 A 98,98 0 0,0 96,19 L 44,-11 Z" fill="url(#fluteGrad)" stroke="#488CE0" stroke-width="0.8"/>
+  <!-- Sweeping Dorsal Wave -->
+  <path d="M -34,-92.4 A 98.5,98.5 0 0,1 96.5,19 L 44,-11 A 45.5,45.5 0 0,0 -8,-44.8 C -28,-48 -42,-66 -34,-92.4 Z" fill="url(#dorsalGrad)" stroke="#4C92E8" stroke-width="1"/>
+  <!-- Sculpted Fish Head, Central Torus & 6-o'clock Stem -->
+  <path d="M -34,-92.4 C -42,-66 -28,-48 -8,-44.8 A 45.5,45.5 0 0,1 18,41.8 L 28.5,93.5 A 97.8,97.8 0 0,1 0,97.8 L 0,45.5 A 45.5,45.5 0 0,1 -30,31 L -77.6,60.6 A 98.5,98.5 0 0,1 -92.5,-34 L -48,-14 L -84,-52 A 98.5,98.5 0 0,1 -34,-92.4 Z" fill="url(#bodyGrad)" filter="url(#dropShadow)" stroke="#5CA2F5" stroke-width="1"/>
+  <!-- Inner Torus Funnel & Camera Lens Aperture -->
+  <circle cx="0" cy="0" r="24.8" fill="url(#funnelGrad)" stroke="#5AA0F2" stroke-width="1.2"/>
+  <circle cx="0" cy="0" r="15.5" fill="#061020" stroke="#2D68B8" stroke-width="1.2"/>
+  <circle cx="0" cy="0" r="11.8" fill="none" stroke="#3898FF" stroke-width="1.2" opacity="0.85"/>
+  <path d="M -6,-5 A 7.8,7.8 0 0,1 5,-6" fill="none" stroke="#85C8FF" stroke-width="1.8" stroke-linecap="round"/>
+  <circle cx="4.2" cy="4.2" r="1.6" fill="#68B5FF"/>
+  <!-- Fish Eye -->
+  <circle cx="-69" cy="2" r="9.8" fill="#1F4E91" opacity="0.55"/>
+  <circle cx="-69" cy="2" r="6.0" fill="#07152B" stroke="#2D6BC0" stroke-width="0.9"/>
+  <circle cx="-71" cy="0" r="1.5" fill="#D8EEFF"/>
+</svg>

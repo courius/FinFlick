@@ -1,0 +1,1 @@
+"""FinFlick Core Package"""
